@@ -1,0 +1,13 @@
+﻿  소스.c
+c:\users\gyul6\source\repos\project36\project36\소스.c(17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\gyul6\source\repos\project36\project36\소스.c(34): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\gyul6\source\repos\project36\project36\소스.c(39): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\gyul6\source\repos\project36\project36\소스.c(46): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\gyul6\source\repos\project36\project36\소스.c(28): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+c:\users\gyul6\source\repos\project36\project36\소스.c(11): warning C4716: 'ox': 값을 반환해야 합니다.
+c:\users\gyul6\source\repos\project36\project36\소스.c(24): warning C4716: 'xx': 값을 반환해야 합니다.
+  Project36.vcxproj -> C:\Users\gyul6\source\repos\Project36\Debug\Project36.exe

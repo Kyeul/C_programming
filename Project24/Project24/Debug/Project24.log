@@ -1,0 +1,5 @@
+﻿  소스.c
+c:\users\gyul6\source\repos\project24\project24\소스.c(19): warning C4552: '+': 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+c:\users\gyul6\source\repos\project24\project24\소스.c(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  Project24.vcxproj -> C:\Users\gyul6\source\repos\Project24\Debug\Project24.exe
