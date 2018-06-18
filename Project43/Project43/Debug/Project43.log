@@ -1,0 +1,3 @@
+﻿  소스.c
+c:\users\gyul6\source\repos\project43\project43\소스.c(11): warning C4716: 'call': 값을 반환해야 합니다.
+  Project43.vcxproj -> C:\Users\gyul6\source\repos\Project43\Debug\Project43.exe
