@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "movie.h"
 
+double average(int element1, int element2);
+
 int main() 
 {
 	int i, num, grade;	//입력받을 변수선언
@@ -38,19 +40,23 @@ int main()
 		content[num-1].grade += grade;	//점수 저장	
 		}
 	// 출력!
-	for(i=0;i<5;i++)
+	for (i = 0; i < 5; i++)
 	{
-		
-		printf("\t%s. %s, %d,평가인원: %d, ", content[i].movie_num, content[i].name, content[i].made_year, content[i].vote_people, content[i].grade);	//출력
+		printf("\t%s. %s, %d,평가인원: %d, ", content[i].movie_num, content[i].name, content[i].made_year, content[i].vote_people);	//출력
 		if (content[i].vote_people == 0)	//투표 받지 못한 값에는 평균을 0으로 초기화
 		{
 			aver = 0.0;
 		}
 		else  //아니면 출력
-			aver = ((double)content[i].grade / content[i].vote_people);	// 평균 계산
-		printf("평점: %.2f \n\n", aver);	//평균 출력
+		{//aver = ((double)content[i].grade / content[i].vote_people);	// 평균 계산
+			printf("평점: %.2f \n\n", average(content[i].grade, content[i].vote_people));	//평균 출력
+		}
 	}
-	
+}
 
-	
+double average(int element1, int element2)
+{
+	double ave;
+
+	return ave = (double)element1 / element2;
 }
