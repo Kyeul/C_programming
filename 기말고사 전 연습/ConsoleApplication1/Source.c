@@ -42,7 +42,7 @@ int main()
 	// 출력!
 	for (i = 0; i < 5; i++)
 	{
-		printf("\t%s. %s, %d,평가인원: %d, ", content[i].movie_num, content[i].name, content[i].made_year, content[i].vote_people);	//출력
+		printf("\t%s. %s, %d,평가인원: %d", content[i].movie_num, content[i].name, content[i].made_year, content[i].vote_people);	//출력
 		if (content[i].vote_people == 0)	//투표 받지 못한 값에는 평균을 0으로 초기화
 		{
 			aver = 0.0;
